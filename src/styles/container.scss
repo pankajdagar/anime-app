@@ -1,0 +1,17 @@
+@import './variable.scss';
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+	margin-top: 5rem;
+}
+
+@media only screen and (max-width: 500px) {
+	.container {
+		padding: 0 1.5rem;
+	}
+}
+
+.item-container {
+	display: flex;
+	flex-wrap: wrap;
+}

@@ -1,0 +1,10 @@
+@import './variable.scss';
+
+:export {
+	themeColor: $theme-color;
+	borderRadius: $border-radius;
+	contentBg: $content-bg;
+
+	fontColorPrimary: $font-color-primary;
+	fontColorSecondary: $font-color-secondary;
+}

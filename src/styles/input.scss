@@ -1,0 +1,29 @@
+input {
+	background: rgba(255, 255, 255, 0.05);
+	border-top-left-radius: $border-radius;
+	border-bottom-left-radius: $border-radius;
+	border-left: 1px solid rgba(255, 255, 255, 0.4);
+	border-top: 1px solid rgba(255, 255, 255, 0.4);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+	border-right: transparent;
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	color: #fff;
+	outline: 0;
+}
+
+::placeholder {
+	color: #fff;
+	opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: #fff;
+}
+
+::-ms-input-placeholder {
+	/* Microsoft Edge */
+	color: #fff;
+}

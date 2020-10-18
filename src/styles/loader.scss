@@ -1,0 +1,39 @@
+@import './variable.scss';
+
+.lds-dual-ring {
+	position: absolute;
+	left: 45%;
+	top: 50%;
+	display: inline-block;
+	width: 6rem;
+	height: 6rem;
+}
+.lds-dual-ring:after {
+	content: ' ';
+	display: block;
+	width: 4rem;
+	height: 4rem;
+	margin: 0.5rem;
+	border-radius: 50%;
+	border: 6px solid $content-bg;
+	border-color: $content-bg transparent $content-bg transparent;
+	animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.overlay {
+	background: #e9e9e9;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.5;
+}
